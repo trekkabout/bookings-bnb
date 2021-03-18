@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Bookings BNB
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,7 +9,7 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Bookings BNB</ion-title>
     </ion-toolbar>
   </ion-header>
 
@@ -17,4 +17,23 @@
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="locations">
+        <ion-label>Locations</ion-label>
+        <ion-icon name="search"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="offers">
+        <ion-label>Offers</ion-label>
+        <ion-icon name="card"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="bookings">
+        <ion-label>Bookings</ion-label>
+        <ion-icon name="menu"></ion-icon>
+      </ion-tab-button>
+
+
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>

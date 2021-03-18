@@ -1,5 +1,5 @@
 {
-  "appId": "com.bookings-bnb",
+  "appId": "com.bookings.bnb",
   "appName": "bookings-bnb",
   "bundledWebRuntime": false,
   "npmClient": "npm",
